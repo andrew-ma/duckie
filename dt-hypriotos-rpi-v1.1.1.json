@@ -1,0 +1,106 @@
+{
+    "disk_image": "dt-hypriotos-rpi-v1.1.1.img",
+    "sha256": "a491d53a15a4a5575fd30044361d3fc7ec4be9216013ba713183f7e17e068347",
+    "surgery_plan": [
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 302845952,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/usr/local/bin/dt-init-first-boot",
+            "placeholder": "INIT_FIRST_BOOT",
+            "used_bytes": 41
+        },
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 302850048,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/usr/local/bin/dt-init-any-boot",
+            "placeholder": "INIT_ANY_BOOT",
+            "used_bytes": 39
+        },
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 302854144,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/usr/local/bin/dt-sanitize-files",
+            "placeholder": "SANITIZE_FILES",
+            "used_bytes": 40
+        },
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 302858240,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/secrets/tokens/dt1",
+            "placeholder": "DUCKIETOWN_TOKEN",
+            "used_bytes": 42
+        },
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 302891008,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/etc/wpa_supplicant/wpa_supplicant.conf",
+            "placeholder": "WPA_SUPPLICANT",
+            "used_bytes": 40
+        },
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 458227712,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/etc/hostname",
+            "placeholder": "HOSTNAME",
+            "used_bytes": 34
+        },
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 302915584,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/etc/avahi/services/dt.robot_type.service",
+            "placeholder": "AVAHI_SERVICE_ROBOT_TYPE",
+            "used_bytes": 50
+        },
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 302919680,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/etc/avahi/services/dt.robot_configuration.service",
+            "placeholder": "AVAHI_SERVICE_ROBOT_CONFIGURATION",
+            "used_bytes": 59
+        },
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 302972928,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/data/stats/init_sd_card/build.json",
+            "placeholder": "STATS_INIT_SD_CARD",
+            "used_bytes": 44
+        },
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 302981120,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/data/config/robot_type",
+            "placeholder": "ROBOT_TYPE",
+            "used_bytes": 36
+        },
+        {
+            "length_bytes": 4096,
+            "offset_bytes": 303030272,
+            "partition": "root",
+            "partition_id": 2,
+            "path": "/data/config/robot_configuration",
+            "placeholder": "ROBOT_CONFIGURATION",
+            "used_bytes": 45
+        }
+    ],
+    "version": "1.1.1"
+}

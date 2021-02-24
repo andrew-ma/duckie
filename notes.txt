@@ -1,0 +1,3 @@
+/tmp/duckietown/dts/init_sd_card/dt-hypriotos-rpi-v1.1.1.zip
+
+# unzipped to hypriot img file and json file
